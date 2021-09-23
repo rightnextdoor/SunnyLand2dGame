@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2db3d46814b036645856a9ad9bdc39e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1350441042636703279, guid: b35d1fb2cd79bc64b85e268ecf70af55, type: 3}
+  Player: {fileID: 0}
   status: {fileID: 5233188605491673324}
   jumpForce: 1000
 --- !u!61 &5233188604511283374
@@ -224,7 +224,8 @@ MonoBehaviour:
   enemyDamage: 1
   damageDealt: 1
   knockbackForce: 100
-  Player: {fileID: 1350441042636703279, guid: b35d1fb2cd79bc64b85e268ecf70af55, type: 3}
+  damageTimeout: 1
+  Player: {fileID: 0}
   hitBox: {fileID: 5233188604511283373}
   deathEffect: {fileID: 7376717284610144435, guid: e1822d80b919dda46b812c4933dbbb1f, type: 3}
 --- !u!95 &5233188605491673325
